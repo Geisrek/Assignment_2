@@ -9,7 +9,7 @@ def findHowManyNumber(num, count=0):
   return count
 #choise 2
 def getgreaterNum(list,index=0):
-  #i can solve it by only one lin just list.sort() return list[len(list)-1] XD
+  #i can solve it by only one line just list.sort() return list[len(list)-1] XD
   if index+1<len(list):
     a=list[index]
     b=list[index+1]
